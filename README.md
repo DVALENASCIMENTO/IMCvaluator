@@ -23,7 +23,7 @@ Desenvolvido por Diego Nascimento - Tecnólogo em Análise e Desenvolvimento de 
 
 Contato
 LinkedIn: https://www.linkedin.com/in/diego-vale-do-nascimento-48212215b/
-GitHub: (https://github.com/DVALENASCIMENTO)
+GitHub: https://github.com/DVALENASCIMENTO
 
 Licença
 Este projeto está licenciado sob a Licença MIT.
