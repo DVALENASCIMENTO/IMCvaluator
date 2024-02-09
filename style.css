@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #03152e;
+    color: white;
+    overflow-y: auto;
+    text-align: center;
+}
+
+main {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.divAltura, .divPeso, .divCalc {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, button {
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #6f00ff;
+    color: white;
+}
+
+button:hover {
+    background-color: #4b0082;
+}
+
+#contato {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#contato h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#contato ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contato li {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+#contato li a {
+    color: #0751f3;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+#contato li a:hover {
+    color: #400080;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 14px;
+    color: #ccc;
+    background-color: #03152e;
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #6f00ff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #400080;
+}

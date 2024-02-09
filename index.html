@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC deValeCode</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h2>Calculadora de IMC</h2>
+        <p>A calculadora de Índice de Massa Corporal (IMC) é uma ferramenta simples e útil para avaliar se o seu peso está dentro de uma faixa saudável em relação à sua altura. O IMC é amplamente utilizado como indicador de saúde e ajuda a identificar possíveis problemas relacionados ao peso. Basta inserir sua altura e peso nos campos abaixo e clique em "Calcular" para obter seu IMC e uma classificação.</p>
+        <div class="divAltura">
+            <label for="altura">Altura (M)</label>
+            <input type="number" id="altura" />
+        </div>
+        <div class="divPeso">
+            <label for="peso">Peso (Kg)</label>
+            <input type="number" id="peso" />
+        </div>
+
+        <div class="divCalc">
+            <button onclick="calcIMC()">Calcular</button>
+        </div>
+        <span id="resultado"></span>
+
+        <section id="contato">
+            <h3>Contatos:</h3>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/diego-vale-do-nascimento-48212215b/" target="_blank" class="linkedin">LinkedIn</a></li>
+                <li><a href="https://github.com/DVALENASCIMENTO" target="_blank" class="github">GitHub</a></li>
+            </ul>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Diego Nascimento - Tecnólogo em Análise e Desenvolvimento de Sistemas</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
