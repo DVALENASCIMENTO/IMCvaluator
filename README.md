@@ -1,4 +1,5 @@
-![Uploading calculadora_imc.png…]()
+
+![calculadora_imc](https://github.com/DVALENASCIMENTO/IMCvaluator/assets/105137007/bfaee196-d8d5-417c-885e-11ee2d1f027b)
 
 # IMCvaluator
 IMCvaluator é uma calculadora de Índice de Massa Corporal (IMC) desenvolvida para ajudar os usuários a monitorar sua saúde e peso de forma simples e intuitiva.
